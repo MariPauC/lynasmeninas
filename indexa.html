@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>Lynasmeninas</title>
+    <link rel="stylesheet" type="text/css" href="css/stylea.css">
+    <link rel="stylesheet" type="text/css" href="css/headera.css">
+    <link rel="stylesheet" type="text/css" href="css/footera.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt_menu"><img src="img/Captura1.JPG" id="cap"><img src="img/lista.png" id="list"></a>
+        </div>
+        <nav id="menu1">
+            <ul>
+                <li>
+                    <p id="quien">Pagina administrativa</p>
+                </li>
+                <li>
+                    <a href="indexa.html"><img id="logol" src="img/Captura1.JPG"></a>
+                </li>
+                <li><a href="#" target="_self" id="logout" class="bot">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section id="menu2" height="800px">
+        <ul>
+            <li><a href="listaCatalogo.html" target="_self">Catalogo</a></li>
+            <li><a href="listaProductos.html" target="_self">Producto</a></li>
+            <li><a href="listaAtencion.html" target="_self">Atención</a></li>
+            <li><a href="perfila.html" target="_self">Cuenta</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <address>Lynas Meninas | Lencería femenina<br>
+            Tienda OnLine - Enviamos a Todo el País<br><br>
+            
+            Atención al público, escríbenos por Whatsapp<br>
+            Instagram:<a href="https://www.instagram.com/lynasmeninas/" target="_new"> @lynasmeninas</a><br> </address>
+        <img id="vector" src="img/Vecotorizado.png">
+    </footer>
+
+    <!-- FIREBASE SCRIPTS-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="modelo/database.js"></script>
+
+    <!-- CUSTOM CODE-->
+    <script src="scrip/validarCuenta.js"></script>
+    <script src="scrip/salir.js"></script>
+
+    <!--Menu-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scrip/menu.js"></script>
+
+</body>
+
+</html>

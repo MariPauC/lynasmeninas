@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'to1';
+}
+
+body {
+    margin: auto;
+    font-family: 'to1';
+}
+
+section {
+    float: left;
+    position: relative;
+    border: solid;
+    border-color: #86C4BF;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section form input {
+    position: relative;
+    float: right;
+}
+
+section form a {
+    color: #6B6B85;
+}
+
+#boton {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    background-color: #E3F8F6;
+    border-style: none;
+    border-radius: 10px;
+    margin: auto;
+    float: right;
+    color: #6B6B85;
+}
+
+#registro {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    background-color: #E3F8F6;
+    border-style: none;
+    float: left;
+    color: #6B6B85;
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    #centro {
+        margin: 0 auto;
+        width: 1600px;
+        margin-top: 40px;
+        height: 530px;
+    }
+    section {
+        width: 780px;
+        height: 490px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    section h3 {
+        font-size: 50px;
+    }
+    section form {
+        margin-top: 50px;
+    }
+    section form input {
+        width: 380px;
+        height: 60px;
+        font-size: 30px;
+    }
+    #boton {
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: -25px;
+        margin-right: 5px;
+    }
+    #registro {
+        padding-top: 15px;
+        width: 285px;
+        height: 70px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: 185px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    #centro {
+        width: 1280px;
+        margin: 0 auto;
+        height: 500px;
+        margin-top: 10px;
+    }
+    section {
+        width: 620px;
+        height: 455px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 50px;
+    }
+    section h3 {
+        font-size: 40px;
+    }
+    section form {
+        margin-top: 50px;
+    }
+    section form input {
+        width: 340px;
+        height: 45px;
+        font-size: 15px;
+    }
+    #boton {
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: -15px;
+        margin-right: 5px;
+    }
+    #registro {
+        padding-top: 15px;
+        width: 285px;
+        height: 70px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: 185px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+        font-size: 14px;
+    }
+    #centro {
+        width: 768px;
+        margin: 0 auto;
+        height: 300px;
+        margin-top: 30px;
+    }
+    section {
+        width: 360px;
+        height: 270px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    section h3 {
+        font-size: 30px;
+    }
+    section form {
+        margin-top: 30px;
+    }
+    section form input {
+        width: 200px;
+        height: 25px;
+        font-size: 15px;
+    }
+    #boton {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: -15px;
+        margin-right: 5px;
+    }
+    #registro {
+        padding-top: 5px;
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: 105px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    #centro {
+        width: 320px;
+        margin: 0 auto;
+        height: 520px;
+    }
+    section {
+        width: 320px;
+        height: 240px;
+        margin-top: 10px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    section h3 {
+        font-size: 30px;
+    }
+    section form {
+        margin-top: 30px;
+    }
+    section form input {
+        width: 170px;
+        height: 20px;
+        font-size: 15px;
+    }
+    #boton {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: -15px;
+        margin-right: 5px;
+    }
+    #registro {
+        padding-top: 5px;
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: 105px;
+        margin-left: 70px;
+    }
+}

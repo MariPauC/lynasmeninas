@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'to2';
+}
+
+body {
+    margin: auto;
+    font-family: 'to2';
+    font-weight: bold;
+}
+
+section {
+    margin: auto;
+}
+
+#menu2 ul li {
+    list-style: none;
+}
+
+#menu2 ul li a {
+    position: relative;
+    text-align: center;
+    background-color: #E3F8F6;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    color: #707070;
+}
+
+#menu2 ul li a:hover {
+    color: white;
+    background-color: #6B6B85;
+    border-radius: 20px;
+    transform: scale(1.03);
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    #menu2 {
+        width: 1600px;
+        height: 400px;
+        margin: auto;
+    }
+    #menu2 ul {
+        margin-top: 30px;
+    }
+    #menu2 ul li {
+        width: 200px;
+        float: left;
+        margin-left: 90px;
+        margin-right: 80px;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    #menu2 ul li a {
+        padding: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    #menu2 {
+        width: 1280px;
+        height: 400px;
+        margin: auto;
+    }
+    #menu2 ul {
+        margin-top: 30px;
+    }
+    #menu2 ul li {
+        width: 200px;
+        float: left;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    #menu2 ul li a {
+        padding: 90px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+        font-size: 25px;
+    }
+    #menu2 {
+        width: 768px;
+        height: 600px;
+        margin: auto;
+    }
+    #menu2 ul {
+        margin-top: 30px;
+    }
+    #menu2 ul li {
+        width: 200px;
+        float: left;
+        margin-left: 60px;
+        margin-right: 70px;
+        margin-top: 180px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    #menu2 ul li a {
+        padding: 90px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    #menu2 {
+        width: 320px;
+        height: 330px;
+        margin: auto;
+    }
+    #menu2 ul {
+        margin-top: 20px;
+    }
+    #menu2 ul li {
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 100px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    #menu2 ul li a {
+        padding: 50px;
+    }
+}

@@ -1,0 +1,270 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'to1';
+}
+
+body {
+    margin: auto;
+    font-family: 'to1';
+    color: #707070;
+}
+
+h1 {
+    text-align: center;
+}
+
+select {
+    border: 2px solid #699995;
+    float: right;
+    margin-right: 20%;
+    text-align: center;
+    background-color: white;
+    color: #707070;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxProducts {
+    border: 2px solid #699995;
+}
+
+.boxProducts img {
+    transition: all 0.4s;
+}
+
+.boxProducts img:hover {
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+.nombre {
+    font-weight: bold;
+    text-align: center;
+}
+
+.favorito {
+    position: relative;
+    margin-left: 0px;
+}
+
+.favorito span {
+    position: relative;
+    float: left;
+    color: #7ecac4;
+}
+
+.favorito span:hover {
+    color: #699995;
+}
+
+.info {
+    list-style: none;
+    text-align: center;
+    float: right;
+}
+
+.nombre {
+    margin: auto;
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    h1 {
+        margin-top: 40px;
+    }
+    select {
+        width: 350px;
+        font-size: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .parent {
+        width: 1705px;
+        margin: auto;
+    }
+    .boxProducts {
+        width: 500px;
+        height: 550px;
+        margin: 2% 2%;
+    }
+    .boxProducts img {
+        width: 500px;
+        min-height: 360px;
+    }
+    .favorito {
+        margin-top: 15px;
+        width: 30px;
+        font-size: 50px;
+    }
+    .favorito span {
+        font-size: 100px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .info {
+        margin-right: 50px;
+        width: 300px;
+    }
+    .nombre {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    h1 {
+        margin-top: 10px;
+    }
+    select {
+        width: 300px;
+        margin-left: 1000px;
+        font-size: 28px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .parent {
+        margin-top: 20px;
+        width: 1280px;
+        margin: auto;
+    }
+    .boxProducts {
+        width: 410px;
+        height: 500px;
+        margin: 10px 8px;
+    }
+    .boxProducts img {
+        width: 410px;
+        min-height: 360px;
+    }
+    .favorito {
+        margin-top: 10px;
+        width: 20px;
+        font-size: 30px;
+    }
+    .favorito span {
+        font-size: 85px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .info {
+        margin-right: 20px;
+        width: 255px;
+        font-size: 30px;
+    }
+    .nombre {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+    }
+    h1 {
+        margin-top: 30px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    select {
+        width: 200px;
+        font-size: 25px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 500px;
+    }
+    .parent {
+        width: 768px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .boxProducts {
+        width: 370px;
+        height: 470px;
+        margin: 10px 5px;
+    }
+    .boxProducts img {
+        width: 370px;
+        min-height: 360px;
+    }
+    .favorito {
+        margin-top: 10px;
+        width: 200px;
+        font-size: 40px;
+    }
+    .favorito span {
+        font-size: 70px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .info {
+        margin-right: 50px;
+        width: 220px;
+        font-size: 28px;
+    }
+    .nombre {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    h1 {
+        margin-top: 30px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    select {
+        width: 150px;
+        margin-right: 0px;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+    .parent {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .boxProducts {
+        width: 320px;
+        height: 470px;
+        margin: 7px 0px;
+    }
+    .boxProducts img {
+        width: 320px;
+        min-height: 360px;
+    }
+    .favorito {
+        margin-top: 10px;
+        width: 200px;
+        font-size: 40px;
+    }
+    .favorito span {
+        font-size: 70px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .info {
+        margin-right: 50px;
+        width: 180px;
+        font-size: 23px;
+    }
+    .nombre {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'to1';
+}
+
+body {
+    margin: auto;
+    font-family: 'to1';
+}
+
+#centro {
+    margin: auto;
+}
+
+section {
+    float: left;
+    position: relative;
+    border: solid;
+    border-color: #86C4BF;
+}
+
+section h3 {
+    text-align: center;
+}
+
+section form input {
+    position: relative;
+    float: left;
+}
+
+section form a {
+    color: #6B6B85;
+}
+
+#registro {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    background-color: #E3F8F6;
+    border-style: none;
+    color: #6B6B85;
+}
+
+#boton {
+    float: right;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    background-color: #E3F8F6;
+    border-style: none;
+    margin: auto;
+    color: #6B6B85;
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    #centro {
+        width: 785px;
+        margin: auto;
+        height: 670px;
+        margin-top: 40px;
+    }
+    section {
+        width: 785px;
+        height: 630px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 50px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    section h3 {
+        text-align: center;
+        font-size: 50px;
+    }
+    section form {
+        margin-top: 60px;
+    }
+    section form input {
+        width: 480px;
+        height: 60px;
+        font-size: 30px;
+    }
+    #registro {
+        padding-top: 15px;
+        width: 250px;
+        height: 70px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    #boton {
+        width: 250px;
+        height: 70px;
+        font-size: 30px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    #centro {
+        width: 670px;
+        margin: auto;
+        height: 620px;
+        margin-top: 10px;
+    }
+    section {
+        width: 670px;
+        height: 570px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    section h3 {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    section form {
+        margin-top: 50px;
+    }
+    section form input {
+        width: 450px;
+        height: 45px;
+        font-size: 30px;
+    }
+    #registro {
+        padding-top: 10px;
+        width: 250px;
+        height: 55px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+    #boton {
+        width: 250px;
+        height: 55px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+        font-size: 14px;
+    }
+    #centro {
+        width: 450px;
+        margin: auto;
+        height: 405px;
+        margin-top: 30px;
+    }
+    section {
+        width: 450px;
+        height: 370px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    section h3 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    section form {
+        margin-top: 30px;
+    }
+    section form input {
+        width: 250px;
+        height: 30px;
+        font-size: 16px;
+    }
+    #registro {
+        padding-top: 15px;
+        width: 130px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    #boton {
+        width: 130px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    #centro {
+        width: 320px;
+        margin: auto;
+        height: 390px;
+        margin-top: 20px;
+    }
+    section {
+        width: 320px;
+        height: 365px;
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 25px;
+    }
+    section h3 {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    section form {
+        margin-top: 20px;
+    }
+    section form input {
+        width: 250px;
+        height: 30px;
+        float: right;
+        font-size: 14px;
+        margin: 9px;
+        margin-bottom: 20px;
+    }
+    #registro {
+        padding-top: 10px;
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-top: 35px;
+    }
+    #boton {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-left: 55px;
+        margin-top: 8px;
+    }
+}

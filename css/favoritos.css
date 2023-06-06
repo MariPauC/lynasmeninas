@@ -1,0 +1,328 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'to1';
+    }
+    
+    body {
+        margin: auto;
+        color: #707070;
+        font-family: 'to1';
+    }
+    
+    .principal {
+        background-color: #EAF8F6;
+        border-right-color: #EAF8F6;
+    }
+    
+    .principal span {
+        color: #6B6B85;
+    }
+    
+    .contProducto img {
+        border-radius: 5px;
+        transition: all 0.4s;
+    }
+    
+    .contProducto img:hover {
+        transform: scale(1.02);
+    }
+    
+    table li {
+        list-style: none;
+    }
+    
+    table select {
+        border: 2px solid #699995;
+        float: center;
+        text-align: center;
+        color: #707070;
+        font-size: 20px;
+    }
+    
+    table a {
+        text-decoration: none;
+        border: 2px solid #699995;
+        font-family: 'to1';
+        color: #707070;
+    }
+    
+    .eliminarFav {
+        border: 2px solid #699995;
+        background-color: white;
+        font-family: 'to1';
+        color: #707070;
+    }
+    
+    @media screen and (min-width:1920px) {
+        body {
+            width: 1920px;
+            font-size: 30px;
+        }
+        .principal {
+            margin: 0 auto;
+            width: 1600px;
+            margin-top: 40px;
+            padding-left: 90px;
+            padding-top: 10px;
+            height: 80px;
+        }
+        .principal h1 {
+            font-size: 50px;
+        }
+        .principal h1 span {
+            display: block;
+            font-size: 60px;
+            margin-top: -60px;
+            margin-left: 220px;
+        }
+        table {
+            width: 1600px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .contProducto img {
+            margin-left: 80px;
+            width: 460px;
+            height: 350px;
+        }
+        #centro {
+            width: 570px;
+            padding: 5px;
+            float: left;
+            margin-left: 0px;
+            margin-top: 25px;
+        }
+        .nombre {
+            font-size: 45px;
+        }
+        .botones {
+            width: 400px;
+            font-size: 30px;
+        }
+        .botones select {
+            margin: 30px;
+            width: 380px;
+            height: 75px;
+            font-size: 30px;
+        }
+        .botones a {
+            display: block;
+            margin: 30px;
+            width: 380px;
+            height: 75px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        .botones button {
+            margin: 30px;
+            width: 380px;
+            height: 75px;
+            font-size: 30px;
+        }
+    }
+    
+    @media screen and (min-width: 1280px) and (max-width:1919px) {
+        body {
+            font-size: 20px;
+            font-family: 'to1';
+        }
+        .principal {
+            margin: 0 auto;
+            width: 1280px;
+            margin-top: 30px;
+            padding-top: 10px;
+            padding-left: 75px;
+            height: 70px;
+        }
+        .principal h1 {
+            font-size: 40px;
+        }
+        .principal h1 span {
+            display: block;
+            font-size: 50px;
+            margin-top: -47px;
+            margin-left: 185px;
+        }
+        table {
+            margin-bottom: 50px;
+            margin: 0 auto;
+        }
+        .contProducto img {
+            margin-left: 80px;
+            width: 340px;
+            height: 285px;
+        }
+        #centro {
+            width: 480px;
+            padding: 5px;
+            float: left;
+            
+            margin-left: 10px;
+            margin-top: 25px;
+        }
+        .nombre {
+            font-size: 35px;
+        }
+        .botones {
+            width: 370px;
+            font-size: 22px;
+        }
+        .botones select {
+            margin: 30px;
+            width: 260px;
+            height: 55px;
+        }
+        .botones a {
+            display: block;
+            margin: 30px;
+            width: 260px;
+            height: 55px;
+            text-align: center;
+            padding-top: 8px;
+        }
+        .botones button {
+            margin: 30px;
+            width: 260px;
+            height: 55px;
+            font-size: 22px;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width:1279px) {
+        body {
+            width: 768px;
+            font-size: 14px;
+        }
+        .principal {
+            margin: auto;
+            width: 768px;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-top: 10px;
+            height: 60px;
+        }
+        .principal h1 {
+            font-size: 30px;
+        }
+        .principal h1 span {
+            display: block;
+            font-size: 40px;
+            margin-top: -40px;
+            margin-left: 130px;
+        }
+        table {
+            width: 768px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .contProducto img {
+            margin-left: 10px;
+            width: 260px;
+            height: 260px;
+        }
+        #centro {
+            width: 270px;
+            padding: 5px;
+            float: left;
+            margin-left: 0px;
+            margin-top: 35px;
+        }
+        .nombre {
+            font-size: 30px;
+        }
+        .botones {
+            width: 180px;
+            font-size: 20px;
+            margin-top: 1px;
+        }
+        .botones select {
+            margin: 20px;
+            width: 170px;
+            height: 50px;
+            font-size: 20px;
+        }
+        .botones a {
+            display: block;
+            margin: 20px;
+            width: 170px;
+            height: 50px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .botones button {
+            margin: 20px;
+            width: 170px;
+            height: 50px;
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 320px) and (max-width:768px) {
+        body {
+            width: 320px;
+            font-size: 12px;
+        }
+        .principal {
+            margin: auto;
+            width: 320px;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-top: 10px;
+            height: 60px;
+        }
+        .principal h1 {
+            font-size: 30px;
+        }
+        .principal h1 span {
+            display: block;
+            font-size: 40px;
+            margin-top: -40px;
+            margin-left: 150px;
+        }
+        table {
+            width: 320px;
+            margin: 0 auto;
+        }
+        .contProducto img {
+            margin-left: 0px;
+            width: 100px;
+            height: 100px;
+        }
+        #centro {
+            display: block;
+            width: 140px;
+            padding: 2px;
+            float: left;
+        }
+        .nombre {
+            font-size: 18px;
+        }
+        .botones {
+            width: 100px;
+            font-size: 12px;
+            margin-top: 1px;
+            margin-left: 1px;
+        }
+        .botones select {
+            margin: 2px;
+            width: 70px;
+            height: 25px;
+            font-size: 12px;
+        }
+        .botones a {
+            display: block;
+            margin: 2px;
+            width: 70px;
+            height: 25px;
+            text-align: center;
+            padding-top: 2px;
+        }
+        .botones button {
+            margin: 2px;
+            width: 70px;
+            height: 25px;
+            font-size: 12px;
+        }
+    }

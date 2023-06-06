@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'to1';
+}
+
+body {
+    margin: auto;
+    font-family: 'to1';
+}
+
+h1 {
+    text-align: center;
+    color: #6B6B85;
+}
+
+.container1 {
+    margin: auto;
+}
+
+.container1 section {
+    float: left;
+    position: relative;
+    border: solid;
+    border-color: #86C4BF;
+}
+
+.container1 p {
+    text-align: center;
+    margin: auto;
+}
+
+.container2 section {
+    float: left;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.849);
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 72px;
+        margin-top: 10px;
+    }
+    .container1 {
+        width: 1500px;
+        margin: auto;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .container1 section {
+        width: 1500px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 50px;
+    }
+    .container1 p {
+        font-size: 50px;
+    }
+    .container2 {
+        width: 1500px;
+        margin: auto;
+        margin-top: 40px;
+        height: 460px;
+    }
+    .container2 section {
+        width: 740px;
+        height: 250px;
+        margin-right: 10px;
+        margin-top: 40px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 62px;
+        margin-top: 10px;
+    }
+    .container1 {
+        width: 1280px;
+        margin: auto;
+        height: 330px;
+        margin-top: 30px;
+    }
+    .container1 section {
+        width: 1280px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 50px;
+    }
+    .container1 p {
+        font-size: 35px;
+    }
+    .container2 {
+        width: 1280px;
+        margin: auto;
+        margin-top: 40px;
+        height: 400px;
+    }
+    .container2 section {
+        width: 620px;
+        height: 220px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 40px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .container1 {
+        width: 768px;
+        margin: auto;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .container1 section {
+        width: 760px;
+        margin-top: 30px;
+        margin-left: 4px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
+    .container1 p {
+        font-size: 25px;
+    }
+    .container2 {
+        width: 768px;
+        margin: auto;
+        margin-top: 40px;
+        height: 280px;
+    }
+    .container2 section {
+        width: 374px;
+        height: 140px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 40px;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .container1 {
+        width:320px;
+        margin: auto;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .container1 section {
+        width: 320px;
+        margin-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
+    .container1 p {
+        font-size: 18px;
+    }
+    .container2 {
+        width:320px;
+        margin: auto;
+        margin-top: 40px;
+        height: 310px;
+    }
+    .container2 section {
+        width: 316px;
+        height: 100px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

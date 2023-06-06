@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'to1';
+}
+
+body {
+    margin: auto;
+    font-family: 'Quicksand';
+}
+/**/
+header {
+    display: table;
+    margin: auto;
+}
+
+.menu_bar {
+    display: none;
+}
+
+#menu1 {
+    margin: auto;
+}
+
+#menu1 ul li {
+    list-style: none;
+    margin: auto;
+    position: relative;
+    float: left;
+}
+
+#menu1 ul li a {
+    font-weight: bold;
+    color: #707070;
+}
+
+#menu1 ul li a:hover {
+    color: #86C4BF;
+}
+
+a {
+    text-decoration: none;
+}
+
+#quien {
+    border-left-color: #86C4BF;
+    border-left: solid;
+}
+
+.bot {
+    background-color: #E3F8F6;
+}
+
+.bot:hover {
+    background-color: #6B6B85;
+}
+
+hr {
+    background-color: #86C4BF;
+    color: #86C4BF;
+    margin: auto;
+}
+#menu2 ul li {
+    list-style: none;
+}
+#menu2 ul li a {
+    font-weight: bold;
+    color: #707070;
+    position: relative;
+    list-style: none;
+    text-align: center;
+    background-color: #E3F8F6;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+#menu2 ul li a:hover {
+    color: white;
+    background-color: #6B6B85;
+    border-radius: 20px;
+    transform: scale(1.03);
+}
+
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    #menu1 {
+        width: 1600px;
+        height: 180px;
+    }
+    #menu1 ul li {
+        margin-left: 10px;
+        margin-top: 110px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 0px;
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+    .logo1 {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    #logol {
+        width: 430px;
+        margin-top: -100px;
+        margin-left: 90px;
+        margin-right: 200px;
+    }
+    #quien {
+        padding: 10px;
+    }
+    .bot {
+        padding: 20px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+    hr {
+        width: 1600px;
+        margin: auto;
+        height: 6px;
+    }
+    #menu2 {
+        width: 1600px;
+        height: 70px;
+        margin: auto;
+        margin-left: 150px;
+    }
+    #menu ul {
+        margin-top: 60px;
+    }
+    #menu2 ul li a{
+        width: 220px;
+        float: left;
+        margin-left: 12px;
+        margin-right: 10px;
+        margin-top: 30px;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    header {
+        display: table;
+    }
+    #menu1 {
+        width: 1280px;
+        height: 160px;
+    }
+    #menu1 ul li {
+        margin-left: 10px;
+        margin-top: 110px;
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 0px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .logo1 {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    #logol {
+        width: 330px;
+        margin-top: -100px;
+        margin-left: 120px;
+        margin-right: 150px;
+    }
+    #quien {
+        padding: 10px;
+    }
+    .bot {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+    hr {
+        width: 1280px;
+        height: 6px;
+    }
+    #menu2 {
+        width: 1280px;
+        height: 70px;
+        margin: auto;
+    }
+    #menu2 ul {
+        margin-top: 40px;
+    }
+    #menu2 ul li a{
+        width: 190px;
+        float: left;
+        margin-left: 12px;
+        margin-right: 10px;
+        margin-top: -15px;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+        font-size: 14px;
+    }
+    .bt_menu img {
+        margin: 10px;
+    }
+    .menu_bar {
+        display: block;
+        width: 100%;
+        height: 90px;
+    }#cap{
+        width:210px;
+    }
+    .menu_bar .bt_menu {
+        display: block;
+        background-color: white;
+    }
+    
+    #list{
+        width: 45px;
+        float: right; 
+        margin-top: 25px;
+    }
+    #menu1 {
+        z-index: 1;
+        right: -768px;
+        width: 768px;
+        height: 40%;
+        padding: 20px;
+        margin-top: 325px;
+        position: fixed;
+        background-color: white;
+    }
+    #menu1 ul li {
+        display: block;
+        height: 40px;
+        float: none;
+        width: 230px;
+        margin-right: 230px;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+    .logo1 {
+        width: 30px;
+        height: 30px;
+    }
+    #logol {
+        display: none;
+    }
+    hr {
+        width: 768px;
+        height: 5px;
+    }
+    #menu2 {
+        z-index: 1;
+        right: -768px;
+        width: 768px;
+        height: 330px;
+        padding: 10px;
+        position: fixed;
+        padding-left: 290px;
+        background-color: white;
+    }
+    #menu2 ul li a{
+        width: 200px;
+        display: block;
+        float: none;
+        margin-top: 10px;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    .bt_menu img {
+        margin: 10px;
+    }
+    .menu_bar {
+        display: block;
+        width: 320px;
+        height: 90px;
+    }
+    .menu_bar .bt_menu {
+        display: block;
+        background-color: white;
+    }
+    #cap{
+        width:180px;
+    }
+    #list{
+        width: 35px;
+        float: right; 
+        margin-top: 30px;
+    }
+    #menu1 {
+        z-index: 1;
+        right: -320px;
+        width: 320px;
+        float: right;
+        height: 40%;
+        padding: 20px;
+        margin-top: 290px;
+        position: fixed;
+        background-color: white;
+    }
+    #menu1 ul li {
+        display: block;
+        height: 30px;
+        float: right;
+        width: 180px;
+        margin-right: 45px;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+    .logo1 {
+        width: 20px;
+        height: 20px;
+    }
+    #logol {
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+    hr {
+        width: 320px;
+        height: 5px;
+    }
+    #menu2 {
+        z-index: 1;
+        right: -320px;
+        width: 320px;
+        float: right;
+        height: 300px;
+        padding: 10px;
+        padding-left: 75px;
+        position: fixed;
+        background-color: white;
+    }
+    #menu2 ul li a{
+        width: 180px;
+        display: block;
+        margin-top: 10px;
+        padding: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>Lynasmeninas</title>
+    <link rel="stylesheet" type="text/css" href="css/perfila.css">
+    <link rel="stylesheet" type="text/css" href="css/headera.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt_menu"><img src="img/Captura1.JPG" width="210px"><img src="img/lista.png" width="45px" style="float: right; margin-top: 25px;"></a>
+        </div>
+        <nav id="menu1">
+            <ul>
+                <li>
+                    <p id="quien">Pagina administrativa</p>
+                </li>
+                <li>
+                    <a href="indexa.html"><img id="logol" src="img/Captura1.JPG"></a>
+                </li>
+                <li><a href="/" target="_self" id="logout" class="bot">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+
+    <div id="centro">
+        <section id="menulat">
+            <h1>Bienvenido de vuelta!</h1>
+            <h2>Perfil</h2>
+            <article id="info"> <a href="/" target="_self">Informacion Personal</a> </article>
+            <h2>Seguridad y Privacidad</h2>
+            <article> <a href="cambiarcontr.html" target="_self">Cambiar Contraseña</a> </article>
+            <article> <a href="#" id="logout" target="_self">Cerrar Sesión</a> </article>
+        </section>
+
+        <section id="contenido">
+            <h1><strong>Información Personal</strong></h1>
+            <form id="actualizar-form">
+                <label for="fname">Nombre:</label>
+                <input type="text" id="name_a" name="fname"><br><br>
+                <label for="flastname">Apellido:</label>
+                <input type="text" id="lastname_a" name="flastname"><br><br>
+                <label for="fphone">Teléfono:</label>
+                <input type="tel" id="phone_a" name="fphone"><br><br>
+                <label for="fmail">Correo:</label>
+                <input type="email" id="mail_a" name="fmail"><br><br>
+                <button type="submit" id="boton"> Actualizar</button>
+            </form>
+            <button href="productos.html" target="_self" id="boton">Eliminar</button>
+        </section>
+    </div>
+
+    <footer>
+        <address>Lynas Meninas | Lencería femenina<br>
+        Tienda OnLine - Enviamos a Todo el País<br><br>
+        
+        Atención al público, escríbenos por Whatsapp<br>
+        Instagram:<a href="https://www.instagram.com/lynasmeninas/" target="_new"> @lynasmeninas</a><br> </address>
+        <img id="vector" src="img/Vecotorizado.png">
+    </footer>
+
+    <!-- FIREBASE SCRIPTS-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="modelo/database.js"></script>
+
+    <!-- CUSTOM CODE-->
+    <script src="scrip/validarCuenta.js"></script>
+    <script src="scrip/salir.js"></script>
+    <script src="scrip/modificar_datos.js"></script>
+
+    <!--Menu-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scrip/menu.js"></script>
+
+</body>
+
+</html>

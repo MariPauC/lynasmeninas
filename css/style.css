@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'to1';
+}
+body {
+    margin: auto;
+    font-family: 'to1';
+}
+@keyframes animaLateralDer {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+@keyframes animaAbajo {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes animaLateralIzq {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+figure{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#visor-animado{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+section{
+    margin: auto;
+}
+
+.imgtex{
+    display: block;
+}
+.imgtex article{
+    float: left;
+}
+.imgtex article img{
+    float: left;
+}
+.imgtex article h3{
+    display: block;
+}
+.imagenes article {
+    display: block;
+    float: left;
+}
+.imagenes img{
+    filter:grayscale(1);
+    transition:all 0.4s;
+}
+.imagenes img:hover{
+    filter:grayscale(0);
+    transform:scale(1.02);
+}
+.imdos{
+    display: block;
+}
+.imdos div{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.imtres{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imagenes2 img{
+    transition:all 0.4s;
+}
+.imagenes2 img:hover{
+    transform:scale(1.02);
+}
+@media screen and (min-width:1920px) {
+    body {
+        width: 1920px;
+        font-size: 30px;
+    }
+    figure{
+        margin-top: 30px;
+        width: 1600px;
+        height: 800px;
+    }
+    figure img{
+        width: 1600px;
+        height: 800px;
+    }
+    section{
+        width: 1600px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    section article{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #slider{
+        background-color: blueviolet;
+        width: 1600px;
+        height: 500px;
+    }
+    .imgtex{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imgtex article{
+        width: 780px;
+        margin: 10px;
+    }
+    .imgtex article img{
+        width: 380px;
+        height: 380px;
+        margin-right: 15px; 
+    }
+    .imgtex article h3{
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .imgtex article p{
+        margin-left: 25px;
+        margin-top: 200px;
+    }
+    .imagenes{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imdos{
+        width: 780px;
+    }
+    .imdos img{
+        margin: 10px;
+        width: 785px;
+        height:385px ;
+    }
+    .imtres img{
+        width: 785px;
+        height: 800px;
+        margin: 10px;
+        margin-left: 25px;
+    }
+    .imagenes2 img{
+        width: 380px;
+        height: 380px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1919px) {
+    body {
+        width: 1280px;
+        font-size: 25px;
+    }
+    figure{
+        width: 1280px;
+        height: 600px;
+    }
+    figure img{
+        width: 1280px;
+        height: 600px;
+    }
+    section{
+        width: 1280px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    section article{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imgtex{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imgtex article{
+        width: 620px;
+        margin: 10px;
+    }
+    .imgtex article img{
+        width: 320px;
+        height: 320px;
+        margin-right: 15px; 
+    }
+    .imgtex article h3{
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .imgtex article p{
+        margin-left: 25px;
+        margin-top: 180px;
+    }
+    .imagenes{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imdos{
+        width: 620px;
+    }
+    .imdos img{
+        margin: 10px;
+        width: 630px;
+        height:280px ;
+    }
+    .imtres img{
+        width: 620px;
+        height: 590px;
+        margin: 10px;
+        margin-left: 25px;
+    }
+    .imagenes2 img{
+        width: 305px;
+        height: 305px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    body {
+        width: 768px;
+        font-size: 14px;
+    }
+    figure{
+        margin-top: 30px;
+        width: 768px;
+        height: 400px;
+    }
+    figure img{
+        width: 768px;
+        height: 400px;
+    }
+    section{
+        width: 768px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    section article{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imgtex{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imgtex article{
+        width: 360px;
+        margin: 10px;
+    }
+    .imgtex article img{
+        width: 190px;
+        height: 190px;
+        margin-right: 15px; 
+    }
+    .imgtex article h3{
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .imgtex article p{
+        margin-left: 25px;
+        margin-top: 90px;
+    }
+    .imagenes{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imdos{
+        width: 380px;
+    }
+    .imdos img{
+        margin: 8px;
+        width: 370px;
+        height:190px ;
+    }
+    .imtres img{
+        width: 370px;
+        height: 400px;
+        margin: 10px;
+        margin-left: 5px;
+    }
+    .imagenes2 img{
+        width: 180px;
+        height: 180px;
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+        width: 320px;
+        font-size: 12px;
+    }
+    figure{
+        margin-top: 10px;
+        width: 320px;
+        height: 200px;
+    }
+    figure img{
+        width: 320px;
+        height: 200px;
+    }
+    section{
+        width: 320px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    section article{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #slider{
+        background-color: blueviolet;
+        width: 320px;
+        height: 200px;
+    }
+    .imgtex{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .imgtex article{
+        width: 320px;
+        margin: 0px;
+    }
+    .imgtex article img{
+        width: 320px;
+        height: 320px;
+        margin-right: 15px; 
+    }
+    .imgtex article h3{
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .imgtex article p{
+        margin-left: 5px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .imagenes{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .imdos{
+        width: 320px;
+    }
+    .imdos img{
+        margin: 0px;
+        width: 320px;
+        height:190px ;
+    }
+    .imtres img{
+        width: 320px;
+        height: 300px;
+        margin: 0px;
+        margin-left: 0px;
+    }
+    .imagenes2 img{
+        width: 320px;
+        height: 320px;
+        margin-left: 0px;
+    }
+}

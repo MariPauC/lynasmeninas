@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <title>Lynasmeninas</title>
+
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/favoritos.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footera.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt_menu"><img src="img/Captura1.JPG" id="cap"><img src="img/lista.png" id="list"></a>
+        </div>
+        <nav id="menu1">
+            <ul>
+                <li>
+                    <a href="/" target="_new"><img class="logo" src="img/what.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/lynasmeninas/" target="_new"><img class="logo1" src="img/inst.png"></a>
+                </li>
+                <li><a href="quienesomos.html" target="_self" id="quien">¿Quiénes somos?</a></li>
+                <li>
+                    <a href="index.html"><img id="logol" src="img/Captura1.JPG"></a>
+                </li>
+                <li><a href="favoritos.html" target="_self" class="bot">Favoritos</a></li>
+                <li><a href="#" target="_self" id="cuenta" class="bot">Cuenta</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <nav id="menu2">
+            <ul>
+                <li><a href="bralettes.html" target="_self">Bralettes</a></li>
+                <li><a href="/" target="_self">Panties</a></li>
+                <li><a href="/" target="_self">Body Suits</a></li>
+                <li><a href="/" target="_self">Set Bra+Panty</a></li>
+                <li><a href="/" target="_new">A medida</a></li>
+                <li><a href="atencion.html" target="_self">Atención</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="principal">
+        <h1>Favoritos <span class="material-icons-outlined">star_dark</span></h1>
+    </div>
+
+    <!-- Contenedor vacio donde se van añadinedo los productos favoritos -->
+    <table id="tablaFavoritos">
+
+    </table>
+
+    <footer>
+        <address>Lynas Meninas | Lencería femenina<br>
+            Tienda OnLine - Enviamos a Todo el País<br><br>
+            
+            Atención al público, escríbenos por Whatsapp<br>
+            Instagram:<a href="https://www.instagram.com/lynasmeninas/" target="_new"> @lynasmeninas</a><br> </address>
+        <img id="vector" src="img/Vecotorizado.png">
+    </footer>
+
+    <!-- FIREBASE SCRIPTS-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="modelo/database.js"></script>
+
+    <!-- CUSTOM CODE-->
+    <script src="scrip/validarCuenta.js"></script>
+    <script src="scrip/paginaUser.js"></script>
+    <script src="scrip/favoritos.js"></script>
+
+    <!--Menu-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scrip/menu.js"></script>
+
+</body>
+
+</html>
